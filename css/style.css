@@ -70,6 +70,7 @@ ul { list-style: none; }
     top: 0;
     left: 0;
     background-image: var(--gradient1);
+    z-index: 100;
 }
 
 .list{
