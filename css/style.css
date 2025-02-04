@@ -108,7 +108,6 @@ ul { list-style: none; }
 
 .list-show{
     display: none;
-    transition: opacity .5s ease;
 }
 
 .fa-caret-right{
