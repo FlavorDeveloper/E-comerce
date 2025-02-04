@@ -1,4 +1,4 @@
-/* Font */
+8/* Font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Reset */
@@ -79,7 +79,7 @@ ul { list-style: none; }
     top: 0;
     left: 0;
     background-image: var(--gradient1);
-    z-index: 100;
+    z-index: 400;
 }
 
 .list{
