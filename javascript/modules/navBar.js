@@ -29,13 +29,11 @@ export function navBar() {
     };
 
     const hideNavbar = () => {
-        navbar.style.opacity = '0';
-        navbar.style.transition = 'opacity 0.3s ease';
+        navbar.style.display = 'none';
     };
 
     const showNavbar = () => {
-        navbar.style.opacity = '1';
-        navbar.style.transition = 'opacity 0.3s ease';
+        navbar.style.display = 'block';
     };
 
     // Evento de scroll
@@ -63,7 +61,6 @@ export function navBar() {
             
             rightArrow.style.transform = isSubmenuVisible ? 'rotate(90deg)' : 'rotate(0deg)';
             submenu.style.display = isSubmenuVisible ? 'block' : 'none';
-            submenu.style.opacity = isSubmenuVisible ? 1 : 0;
             
             e.stopPropagation();
         });
@@ -74,7 +71,6 @@ export function navBar() {
         // Cerrar submenús
         listShow.forEach(nodo => {
             nodo.style.display = 'none';
-            nodo.style.opacity = 0;
         });
 
         // Cerrar menú móvil
