@@ -155,7 +155,7 @@ export function carrito() {
     }
     
     function enviarCarritoWhatsApp() {
-        const numeroWhatsApp = "+584249360393";
+        const numeroWhatsApp = "12345678";
         let finalMessage = "";
         
         // Paso 1: Comprobar si el carrito está vacío
